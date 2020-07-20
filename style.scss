@@ -298,6 +298,11 @@ img {
 	line-height: 48px;
 }
 
+.title-3 {
+	font-weight: bold;
+	font-size: 24px;
+}
+
 .bottom {
 	display: flex;
 	justify-content: space-between;
@@ -389,8 +394,93 @@ img {
 	}
 }
 
-.title-3 {
-	font-weight: bold;
-	font-size: 24px;
-}
 
+
+.design {
+	padding: 345px 0 305px 0;
+	background-color: #3454F5;
+	&__body {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__arrow {
+		position: absolute;
+		width: 49px;
+		height: 110px;
+		background: url('img/design/2.svg') no-repeat;
+		&_1 {
+			top: -60%;
+			left: 0;
+			opacity: 0.4;
+
+		}
+
+		&_2 {
+			top: 75%;
+			left: 2%;
+			opacity: 0.6;
+
+		}
+
+		&_3 {
+			top: 185%;
+			left: 29%;
+			opacity: 0.3;
+
+		}
+
+		&_4 {
+			top: -65%;
+			left: 35%;
+			opacity: 0.6;
+
+		}
+
+		&_5 {
+			top: -90%;
+			left: 78%;
+			opacity: 0.2;
+
+		}
+
+		&_6 {
+			top: 140%;
+			left: 85%;
+		}
+
+		&_7 {
+			top: 35%;
+			right: 0;
+			opacity: 0.6;
+		}
+	}
+
+	&__img {
+		position: relative;
+		width: 210px;
+		height: 45px;
+		margin-bottom: 60px;
+		&::before {
+			content: '';
+			position: absolute;
+			display: inline-block;
+			top: -23px;
+			right: 0;
+			width: 42px;
+			height: 14px;
+			background: #ffffff;
+		}
+	}
+
+	&__p {
+		max-width: 750px;
+		text-align: center;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 48px;
+		color: #ffffff;
+	}
+}
