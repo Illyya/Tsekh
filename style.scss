@@ -41,6 +41,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 @font-face {
 	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Regular.eot');
+	src: local('☺'), url('fonts/Gilroy-Regular.woff') format('woff'), url('fonts/Gilroy-Regular.ttf') format('truetype'), url('fonts/Gilroy-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
 	src: url('fonts/Gilroy-SemiBold.eot');
 	src: local('☺'), url('fonts/Gilroy-SemiBold.woff') format('woff'), url('fonts/Gilroy-SemiBold.ttf') format('truetype'), url('fonts/Gilroy-SemiBold.svg') format('svg');
 	font-weight: 600;
@@ -56,6 +64,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body {
 	font-family: 'Gilroy', sans-serif;
+	font-weight: 400;
 	color: #333333;
 }
 
@@ -116,6 +125,7 @@ img {
 		height: 50px;
 		line-height: 45px;
 		color: #333333;
+		font-weight: 700;
 	}
 }
 
@@ -145,6 +155,7 @@ img {
 	}
 	&__link {
 		color: #333333;
+		font-weight: 600;
 	}
 }
 
@@ -156,6 +167,7 @@ img {
 	background-color: #3454F5;
 	line-height: 72px;
 	border-radius: 5px;
+	font-weight: 700;
 }
 
 .simple-development {
@@ -522,6 +534,42 @@ img {
 			font-size: 18px;
 			line-height: 28px;
 			
+			li {
+				position: relative;
+				padding: 0 0 0 21px;
+				&::before {
+					content: '';
+					position: absolute;
+					display: inline-block;
+					width: 7px;
+					height: 1px;
+					background: #3454F5;
+					top: 14px;
+					left: 0;
+					border-radius: 2px;
+				}
+				&::after {
+					content: '';
+					position: absolute;
+					display: inline-block;
+					width: 7px;
+					height: 1px;
+					transform: rotate(90deg);
+					background: #3454F5;
+					top: 14px;
+					left: 0;
+					border-radius: 2px;
+				}
+				&:last-of-type {
+					color: #E46868;
+					&::before {
+						background: #E46868;
+					}
+					&::after {
+						display: none;
+					}
+				}
+			}
 		}
 	}
 
