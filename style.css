@@ -650,12 +650,16 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 172px;
-  border-radius: 15px;
-  background: #EFF7FF;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 172px;
+  padding: 0 58px 0 0;
+  border-radius: 15px;
+  background: #EFF7FF;
 }
 
 .calculation__img {
