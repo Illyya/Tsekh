@@ -168,6 +168,7 @@ img {
 	line-height: 72px;
 	border-radius: 5px;
 	font-weight: 700;
+	font-size: 16px;
 }
 
 .simple-development {
@@ -587,5 +588,73 @@ img {
 
 		}
 	}
+
+	&__calculation {}
+}
+
+.calculation {
+	display: flex;
+	margin-top: 172px;
+	border-radius: 15px;
+	background: #EFF7FF;
+	align-items: center;
+	&__left {}
+
+	&__img {
+		width: 446px;
+		height: 446px;
+	}
+
+	&__right {
+		max-width: 610px;
+	}
+
+	&__title-3 {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+
+	&__p {
+		line-height: 28px;
+		margin-bottom: 50px;
+	}
+
+	
+
+	&__form {
+		&_p {
+			display: inline-block;
+			vertical-align: middle;
+			max-width: 257px;
+			font-size: 14px;
+			line-height: 24px;
+			color: #999999;
+		}
+	}
+
+	&__input {
+		background: #ffffff;
+		border-radius: 5px;
+		height: 72px;
+		width: 287px;
+		padding: 25px;
+		display: inline-block;
+		margin-bottom: 20px;		
+		
+		&:not(:last-of-type) {
+			margin-right: 20px;
+		}
+		::placeholder {
+			font-size: 18px;
+			color: #999999;
+		}
+		
+	}
+
+	&__btn {
+		margin-right: 20px;
+	}
+
+
 }
 

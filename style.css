@@ -204,6 +204,7 @@ img {
   line-height: 72px;
   border-radius: 5px;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .simple-development {
@@ -643,5 +644,83 @@ img {
 
 .we-do__p:not(:last-of-type) {
   margin-bottom: 30px;
+}
+
+.calculation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 172px;
+  border-radius: 15px;
+  background: #EFF7FF;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculation__img {
+  width: 446px;
+  height: 446px;
+}
+
+.calculation__right {
+  max-width: 610px;
+}
+
+.calculation__title-3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.calculation__p {
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.calculation__form_p {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 257px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.calculation__input {
+  background: #ffffff;
+  border-radius: 5px;
+  height: 72px;
+  width: 287px;
+  padding: 25px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.calculation__input:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.calculation__input ::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #999999;
+}
+
+.calculation__input :-ms-input-placeholder {
+  font-size: 18px;
+  color: #999999;
+}
+
+.calculation__input ::-ms-input-placeholder {
+  font-size: 18px;
+  color: #999999;
+}
+
+.calculation__input ::placeholder {
+  font-size: 18px;
+  color: #999999;
+}
+
+.calculation__btn {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
