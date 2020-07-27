@@ -139,6 +139,17 @@ img {
   max-width: 100%;
 }
 
+.title-2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.title-3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
 .header {
   padding: 30px 0;
 }
@@ -362,17 +373,6 @@ img {
 .top__p {
   font-size: 20px;
   line-height: 32px;
-}
-
-.title-2 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 48px;
-}
-
-.title-3 {
-  font-weight: bold;
-  font-size: 24px;
 }
 
 .bottom {
@@ -726,5 +726,110 @@ img {
 
 .calculation__btn {
   margin-right: 20px;
+}
+
+.stack {
+  padding: 80px 0 80px 0;
+  background: #EFF7FF;
+}
+
+.stack__title-2 {
+  margin-bottom: 50px;
+}
+
+.stack__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.stack__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
+  margin: 0 10px;
+  background-color: #ffffff;
+  height: 88px;
+  border-radius: 10px;
+}
+
+.cases {
+  padding: 140px 0;
+}
+
+.cases__title-2 {
+  margin-bottom: 50px;
+}
+
+.cases__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.cases__img {
+  max-width: 680px;
+  max-height: 400px;
+  margin-right: 50px;
+}
+
+.cases__img img {
+  border-radius: 15px;
+}
+
+.cases__text {
+  padding: 20px 0 0 0;
+}
+
+.cases__text_numeral-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+
+.cases__text_numeral-p:nth-of-type(3) {
+  margin-bottom: 33px;
+}
+
+.cases__text_numeral {
+  width: 96px;
+  padding: 14px 0;
+  color: #3454F5;
+  background: #EFF7FF;
+  border-radius: 5px;
+  margin-right: 17px;
+  text-align: center;
+}
+
+.cases__text_img {
+  max-width: 320px;
+  max-height: 28px;
+}
+
+.cases__title-3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cases__p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 288px;
 }
 /*# sourceMappingURL=style.css.map */
