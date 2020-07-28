@@ -877,9 +877,11 @@ img {
   margin-bottom: 20px;
 }
 
-.how-much__calculation input {
+.how-much__calculation input,
+.how-much__calculation button {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 
 .how-much__inp {
@@ -902,7 +904,7 @@ img {
           flex: 0 1 33.33%;
 }
 
-.how-much__inp-sub input {
+.how-much__inp-sub button {
   font-weight: 800;
   font-size: 16px;
   background: #FFE818;
@@ -910,5 +912,123 @@ img {
 
 .how-much__p-end {
   font-size: 14px;
+}
+
+.who-will-work {
+  padding: 140px 0;
+}
+
+.who {
+  margin-bottom: 140px;
+}
+
+.who__title-2 {
+  margin-bottom: 50px;
+}
+
+.who__img {
+  margin-bottom: 40px;
+}
+
+.who__img img {
+  border-radius: 10px;
+}
+
+.who__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.who__left {
+  max-width: 457px;
+}
+
+.who__left_P {
+  line-height: 28px;
+}
+
+.who__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.who__right_img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 30px;
+}
+
+.who__right_p {
+  max-width: 393px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.if__title-2 {
+  margin-bottom: 20px;
+}
+
+.if__p {
+  margin-bottom: 40px;
+}
+
+.if__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.if__item {
+  position: relative;
+  padding: 40px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.33%;
+          flex: 0 1 33.33%;
+  height: 460px;
+  background: #EFF7FF;
+}
+
+.if__item:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.if__item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: url("img/who-will-work/6.svg") no-repeat center, #3454F5;
+}
+
+.if__title-3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.if__span {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  background: #ffffff;
+  margin-bottom: 8px;
+}
+
+.if__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url("img/who-will-work/7.svg") no-repeat 100% 100%, url("img/who-will-work/8.svg") no-repeat 100% 100%;
 }
 /*# sourceMappingURL=style.css.map */

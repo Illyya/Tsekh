@@ -795,9 +795,11 @@ img {
 	&__calculation {
 		display: flex;
 		margin-bottom: 20px;
-		input {
+		input,
+		button {
 			width: 100%;
 			height: 100%;
+			border-radius: 5px;
 		}
 	}
 
@@ -815,7 +817,7 @@ img {
 	&__inp-sub {
 		height: 72px;
 		flex: 0 1 33.33%;
-		input {
+		button {
 			font-weight: 800;
 			font-size: 16px;
 			background: #FFE818;
@@ -828,5 +830,119 @@ img {
 	}
 }
 
+.who-will-work {
+	padding: 140px 0;
+	&__body {}
+
+	&__who {}
+
+	&__if {}
+}
+
+.who {
+	margin-bottom: 140px;
+	&__title-2 {
+		margin-bottom: 50px;
+	}
+
+	&__img {
+		margin-bottom: 40px;
+		img {
+			border-radius: 10px;
+		}
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+		max-width: 457px;
+		&_P {
+			line-height: 28px;
+		}
+	}
+
+	&__right {
+		display: flex;
+		align-items: center;
+		&_img {
+			max-width: 100px;
+			max-height: 100px;
+			margin-right: 30px;
+		}
+
+		&_p {
+			max-width: 393px;
+			font-weight: 600;
+			line-height: 28px;
+		}
+	}
+}
+
+.if {
+
+	&__title-2 {
+		margin-bottom: 20px;
+	}
+
+	&__p {
+		margin-bottom: 40px;
+	}
+
+	&__items {
+		display: flex;
+	}
+
+	&__item {
+		position: relative;
+		padding: 40px;
+		flex: 0 1 33.33%;
+		height: 460px;
+		background: #EFF7FF;
+		&:not(:last-of-type) {
+			margin-right: 20px;
+		}
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			display: block;
+			width: 80px;
+			height: 80px;
+			background: 
+				url('img/who-will-work/6.svg') no-repeat center, 
+				#3454F5;			
+		}
+		
+		
+	}
+
+	&__title-3 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	&__span {
+		display: inline-block;
+		padding: 4px 8px;
+		font-size: 12px;
+		border-radius: 4px;
+		background: #ffffff;
+		margin-bottom: 8px;
+	}
+
+	&__img {
+		position: absolute;		
+		right: 0;
+		bottom: 0;
+		background: 
+			url('img/who-will-work/7.svg') no-repeat 100% 100%,
+			url('img/who-will-work/8.svg') no-repeat 100% 100%;
+		
+	}
+}
 
 
