@@ -759,5 +759,74 @@ img {
 	}
 }
 
+.how-much {
+	padding: 80px 0;
+	background: #3454F5;
+	color: #FFFFFF;
+	&__body {}
+
+	&__title-2 {
+		margin-bottom: 30px;
+	}
+
+	&__row-1 {
+		display: flex;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+
+	&__p {
+		max-width: 344px;
+		line-height: 28px;
+	}
+
+	&__span {
+		padding: 0 35px;
+		height: 56px;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 56px;
+		color: #333333;
+		background: #FFFFFF;
+		border-radius: 5px;
+		margin-right: 20px;
+	}
+
+	&__calculation {
+		display: flex;
+		margin-bottom: 20px;
+		input {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__inp {
+		height: 72px;		
+		flex: 0 1 33.33%;
+		margin-right: 15px;
+		input {
+			padding: 25px;
+			font-size: 18px;
+
+		}
+	}
+
+	&__inp-sub {
+		height: 72px;
+		flex: 0 1 33.33%;
+		input {
+			font-weight: 800;
+			font-size: 16px;
+			background: #FFE818;
+
+		}
+	}
+
+	&__p-end {
+		font-size: 14px;
+	}
+}
+
 
 

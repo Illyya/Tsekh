@@ -832,4 +832,83 @@ img {
   line-height: 24px;
   max-width: 288px;
 }
+
+.how-much {
+  padding: 80px 0;
+  background: #3454F5;
+  color: #FFFFFF;
+}
+
+.how-much__title-2 {
+  margin-bottom: 30px;
+}
+
+.how-much__row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.how-much__p {
+  max-width: 344px;
+  line-height: 28px;
+}
+
+.how-much__span {
+  padding: 0 35px;
+  height: 56px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #333333;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.how-much__calculation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.how-much__calculation input {
+  width: 100%;
+  height: 100%;
+}
+
+.how-much__inp {
+  height: 72px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.33%;
+          flex: 0 1 33.33%;
+  margin-right: 15px;
+}
+
+.how-much__inp input {
+  padding: 25px;
+  font-size: 18px;
+}
+
+.how-much__inp-sub {
+  height: 72px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.33%;
+          flex: 0 1 33.33%;
+}
+
+.how-much__inp-sub input {
+  font-weight: 800;
+  font-size: 16px;
+  background: #FFE818;
+}
+
+.how-much__p-end {
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
