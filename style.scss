@@ -142,6 +142,15 @@ img {
 			width: 27px;
 			height: 9px;
 			background-color: $back_col-2;
+			animation: 2s 1s backwards blockk;			
+			@keyframes blockk {
+				0% {
+					transform: translate(1200px) rotate(180deg) scale(0.01);
+				}
+				100% {
+					transform: translate(0);
+				}
+			}
 		}
 	}
 
@@ -247,6 +256,15 @@ img {
 			height: 850px;
 			top: 5%;
 			left: -7%;
+			animation: infinite 3s 1s alternate t;			
+			@keyframes t {
+				0% {
+					
+				}
+				100% {
+					filter: saturate(3);
+				}
+			}
 		}
 
 		&_4 {
@@ -255,6 +273,15 @@ img {
 			top: 25%;
 			left: 5%;
 			z-index: 5;
+			animation: infinite 7s 2s backwards alternate q;			
+			@keyframes q {
+				0% {
+					transform: translate(0);
+				}
+				100% {
+					transform: translate(20px);
+				}
+			}
 		}
 
 		&_5 {
@@ -271,7 +298,15 @@ img {
 			img {
 				transform: rotate(-7deg);
 			}
-			
+			animation: infinite 8s 1s backwards alternate w;			
+			@keyframes w {
+				0% {
+					transform: translate(0);
+				}
+				100% {
+					transform: rotate(10deg);
+				}
+			}
 		}
 
 		&_6 {
@@ -288,7 +323,15 @@ img {
 			img {
 				transform: rotate(8deg);
 			}
-			
+			animation: infinite 9s 1.5s backwards alternate e;			
+			@keyframes e {
+				0% {
+					transform: translate(0);
+				}
+				100% {
+					transform: rotate(-10deg);
+				}
+			}
 		}
 
 		&_7 {
@@ -304,6 +347,15 @@ img {
 			transform: rotate(-5deg);
 			img {
 				transform: rotate(5deg);
+			}
+			animation: infinite 5s 1.7s backwards alternate r;			
+			@keyframes r {
+				0% {
+					transform: translate(0);
+				}
+				100% {
+					transform: rotate(-10deg);
+				}
 			}
 		}
 	}
@@ -445,6 +497,7 @@ img {
 		width: 49px;
 		height: 110px;
 		background: url('img/design/2.svg') no-repeat;
+		
 		&_1 {
 			top: -60%;
 			left: 0;
@@ -1012,8 +1065,9 @@ img {
 		.sprite {
 			vertical-align: middle;
 			margin-right: 17px;
+			transition: 0.1s;
 			&:hover {
-				filter: brightness(1.5);
+				filter: brightness(1.4);
 			}
 
 		}
